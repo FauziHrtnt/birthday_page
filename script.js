@@ -67,7 +67,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
     if(fungsi==1){menuju();}
   }
   async function menuju(){
-    var nomor = "6281234567890"; // Ganti dengan nomor WhatsApp kamu
+    var nomor = "6287741163451"; // Ganti dengan nomor WhatsApp kamu
     window.location = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(pesanwhatsapp);
   }
 
